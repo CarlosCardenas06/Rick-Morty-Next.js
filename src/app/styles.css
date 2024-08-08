@@ -1,0 +1,68 @@
+body {
+    background-color: #0d0d0d; /* Color de fondo oscuro */
+    background-image: url('/images/space-bg.jpg'); /* Imagen de fondo espacial */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff; /* Color de texto blanco */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo claro translúcido para las tarjetas */
+    border: 1px solid #00bfff; /* Borde azul */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  h1 {
+    color: #00bfff; /* Color azul para el título */
+    text-shadow: 2px 2px #000; /* Sombra para el título */
+    font-size: 3rem; /* Tamaño de fuente grande */
+  }
+  
+  .paginator {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro translúcido para el paginador */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  .p-button {
+    background-color: #00bfff; /* Color de fondo azul para los botones */
+    border: none; /* Sin bordes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para los botones */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .p-button:hover {
+    background-color: #007acc; /* Color de fondo azul oscuro para los botones al pasar el mouse */
+  }
+
+  .character-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .character-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .character-details {
+    width: 100%;
+  }
+  
+  .character-details p {
+    margin: 0.5rem 0;
+  }
+  
+  .character-details a {
+    color: #00bfff;
+    text-decoration: none;
+  }
+  
+  .character-details a:hover {
+    text-decoration: underline;
+  }
+  
+  
